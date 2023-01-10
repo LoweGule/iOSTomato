@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AD9F7B296D3E3E00F437D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9F7A296D3E3E00F437D2 /* AppDelegate.swift */; };
+		05AD9F7D296D3E3E00F437D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9F7C296D3E3E00F437D2 /* SceneDelegate.swift */; };
+		05AD9F7F296D3E3E00F437D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9F7E296D3E3E00F437D2 /* ViewController.swift */; };
+		05AD9F82296D3E3E00F437D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD9F80296D3E3E00F437D2 /* Main.storyboard */; };
+		05AD9F85296D3E3E00F437D2 /* FinProLabMMS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9F83296D3E3E00F437D2 /* FinProLabMMS.xcdatamodeld */; };
+		05AD9F87296D3E3F00F437D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05AD9F86296D3E3F00F437D2 /* Assets.xcassets */; };
+		05AD9F8A296D3E3F00F437D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05AD9F88296D3E3F00F437D2 /* LaunchScreen.storyboard */; };
+		05AD9F95296D3E3F00F437D2 /* FinProLabMMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9F94296D3E3F00F437D2 /* FinProLabMMSTests.swift */; };
+		05AD9F9F296D3E3F00F437D2 /* FinProLabMMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9F9E296D3E3F00F437D2 /* FinProLabMMSUITests.swift */; };
+		05AD9FA1296D3E3F00F437D2 /* FinProLabMMSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9FA0296D3E3F00F437D2 /* FinProLabMMSUITestsLaunchTests.swift */; };
+		05AD9FAE296D4D0400F437D2 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9FAD296D4D0400F437D2 /* RegisterViewController.swift */; };
+		05AD9FB0296D5F0E00F437D2 /* LoginDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AD9FAF296D5F0E00F437D2 /* LoginDetails.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AD9F91296D3E3F00F437D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD9F6F296D3E3E00F437D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AD9F76296D3E3E00F437D2;
+			remoteInfo = FinProLabMMS;
+		};
+		05AD9F9B296D3E3F00F437D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD9F6F296D3E3E00F437D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AD9F76296D3E3E00F437D2;
+			remoteInfo = FinProLabMMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AD9F77296D3E3E00F437D2 /* FinProLabMMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinProLabMMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AD9F7A296D3E3E00F437D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		05AD9F7C296D3E3E00F437D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		05AD9F7E296D3E3E00F437D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		05AD9F81296D3E3E00F437D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05AD9F84296D3E3E00F437D2 /* FinProLabMMS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinProLabMMS.xcdatamodel; sourceTree = "<group>"; };
+		05AD9F86296D3E3F00F437D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05AD9F89296D3E3F00F437D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05AD9F8B296D3E3F00F437D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05AD9F90296D3E3F00F437D2 /* FinProLabMMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinProLabMMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AD9F94296D3E3F00F437D2 /* FinProLabMMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProLabMMSTests.swift; sourceTree = "<group>"; };
+		05AD9F9A296D3E3F00F437D2 /* FinProLabMMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinProLabMMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AD9F9E296D3E3F00F437D2 /* FinProLabMMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProLabMMSUITests.swift; sourceTree = "<group>"; };
+		05AD9FA0296D3E3F00F437D2 /* FinProLabMMSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinProLabMMSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		05AD9FAD296D4D0400F437D2 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		05AD9FAF296D5F0E00F437D2 /* LoginDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDetails.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05AD9F74296D3E3E00F437D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD9F8D296D3E3F00F437D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD9F97296D3E3F00F437D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AD9F6E296D3E3E00F437D2 = {
+			isa = PBXGroup;
+			children = (
+				05AD9F79296D3E3E00F437D2 /* FinProLabMMS */,
+				05AD9F93296D3E3F00F437D2 /* FinProLabMMSTests */,
+				05AD9F9D296D3E3F00F437D2 /* FinProLabMMSUITests */,
+				05AD9F78296D3E3E00F437D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05AD9F78296D3E3E00F437D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AD9F77296D3E3E00F437D2 /* FinProLabMMS.app */,
+				05AD9F90296D3E3F00F437D2 /* FinProLabMMSTests.xctest */,
+				05AD9F9A296D3E3F00F437D2 /* FinProLabMMSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AD9F79296D3E3E00F437D2 /* FinProLabMMS */ = {
+			isa = PBXGroup;
+			children = (
+				05AD9F7A296D3E3E00F437D2 /* AppDelegate.swift */,
+				05AD9F7C296D3E3E00F437D2 /* SceneDelegate.swift */,
+				05AD9F7E296D3E3E00F437D2 /* ViewController.swift */,
+				05AD9FAF296D5F0E00F437D2 /* LoginDetails.swift */,
+				05AD9FAD296D4D0400F437D2 /* RegisterViewController.swift */,
+				05AD9F80296D3E3E00F437D2 /* Main.storyboard */,
+				05AD9F86296D3E3F00F437D2 /* Assets.xcassets */,
+				05AD9F88296D3E3F00F437D2 /* LaunchScreen.storyboard */,
+				05AD9F8B296D3E3F00F437D2 /* Info.plist */,
+				05AD9F83296D3E3E00F437D2 /* FinProLabMMS.xcdatamodeld */,
+			);
+			path = FinProLabMMS;
+			sourceTree = "<group>";
+		};
+		05AD9F93296D3E3F00F437D2 /* FinProLabMMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				05AD9F94296D3E3F00F437D2 /* FinProLabMMSTests.swift */,
+			);
+			path = FinProLabMMSTests;
+			sourceTree = "<group>";
+		};
+		05AD9F9D296D3E3F00F437D2 /* FinProLabMMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05AD9F9E296D3E3F00F437D2 /* FinProLabMMSUITests.swift */,
+				05AD9FA0296D3E3F00F437D2 /* FinProLabMMSUITestsLaunchTests.swift */,
+			);
+			path = FinProLabMMSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05AD9F76296D3E3E00F437D2 /* FinProLabMMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AD9FA4296D3E3F00F437D2 /* Build configuration list for PBXNativeTarget "FinProLabMMS" */;
+			buildPhases = (
+				05AD9F73296D3E3E00F437D2 /* Sources */,
+				05AD9F74296D3E3E00F437D2 /* Frameworks */,
+				05AD9F75296D3E3E00F437D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinProLabMMS;
+			productName = FinProLabMMS;
+			productReference = 05AD9F77296D3E3E00F437D2 /* FinProLabMMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05AD9F8F296D3E3F00F437D2 /* FinProLabMMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AD9FA7296D3E3F00F437D2 /* Build configuration list for PBXNativeTarget "FinProLabMMSTests" */;
+			buildPhases = (
+				05AD9F8C296D3E3F00F437D2 /* Sources */,
+				05AD9F8D296D3E3F00F437D2 /* Frameworks */,
+				05AD9F8E296D3E3F00F437D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AD9F92296D3E3F00F437D2 /* PBXTargetDependency */,
+			);
+			name = FinProLabMMSTests;
+			productName = FinProLabMMSTests;
+			productReference = 05AD9F90296D3E3F00F437D2 /* FinProLabMMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05AD9F99296D3E3F00F437D2 /* FinProLabMMSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AD9FAA296D3E3F00F437D2 /* Build configuration list for PBXNativeTarget "FinProLabMMSUITests" */;
+			buildPhases = (
+				05AD9F96296D3E3F00F437D2 /* Sources */,
+				05AD9F97296D3E3F00F437D2 /* Frameworks */,
+				05AD9F98296D3E3F00F437D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AD9F9C296D3E3F00F437D2 /* PBXTargetDependency */,
+			);
+			name = FinProLabMMSUITests;
+			productName = FinProLabMMSUITests;
+			productReference = 05AD9F9A296D3E3F00F437D2 /* FinProLabMMSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05AD9F6F296D3E3E00F437D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					05AD9F76296D3E3E00F437D2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					05AD9F8F296D3E3F00F437D2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 05AD9F76296D3E3E00F437D2;
+					};
+					05AD9F99296D3E3F00F437D2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 05AD9F76296D3E3E00F437D2;
+					};
+				};
+			};
+			buildConfigurationList = 05AD9F72296D3E3E00F437D2 /* Build configuration list for PBXProject "FinProLabMMS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05AD9F6E296D3E3E00F437D2;
+			productRefGroup = 05AD9F78296D3E3E00F437D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05AD9F76296D3E3E00F437D2 /* FinProLabMMS */,
+				05AD9F8F296D3E3F00F437D2 /* FinProLabMMSTests */,
+				05AD9F99296D3E3F00F437D2 /* FinProLabMMSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05AD9F75296D3E3E00F437D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD9F8A296D3E3F00F437D2 /* LaunchScreen.storyboard in Resources */,
+				05AD9F87296D3E3F00F437D2 /* Assets.xcassets in Resources */,
+				05AD9F82296D3E3E00F437D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD9F8E296D3E3F00F437D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD9F98296D3E3F00F437D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05AD9F73296D3E3E00F437D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD9FB0296D5F0E00F437D2 /* LoginDetails.swift in Sources */,
+				05AD9F7F296D3E3E00F437D2 /* ViewController.swift in Sources */,
+				05AD9FAE296D4D0400F437D2 /* RegisterViewController.swift in Sources */,
+				05AD9F7B296D3E3E00F437D2 /* AppDelegate.swift in Sources */,
+				05AD9F7D296D3E3E00F437D2 /* SceneDelegate.swift in Sources */,
+				05AD9F85296D3E3E00F437D2 /* FinProLabMMS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD9F8C296D3E3F00F437D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD9F95296D3E3F00F437D2 /* FinProLabMMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD9F96296D3E3F00F437D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD9FA1296D3E3F00F437D2 /* FinProLabMMSUITestsLaunchTests.swift in Sources */,
+				05AD9F9F296D3E3F00F437D2 /* FinProLabMMSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05AD9F92296D3E3F00F437D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AD9F76296D3E3E00F437D2 /* FinProLabMMS */;
+			targetProxy = 05AD9F91296D3E3F00F437D2 /* PBXContainerItemProxy */;
+		};
+		05AD9F9C296D3E3F00F437D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AD9F76296D3E3E00F437D2 /* FinProLabMMS */;
+			targetProxy = 05AD9F9B296D3E3F00F437D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05AD9F80296D3E3E00F437D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD9F81296D3E3E00F437D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05AD9F88296D3E3F00F437D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD9F89296D3E3F00F437D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05AD9FA2296D3E3F00F437D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05AD9FA3296D3E3F00F437D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05AD9FA5296D3E3F00F437D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T8D893X3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinProLabMMS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MMS.FinProLabMMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05AD9FA6296D3E3F00F437D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6T8D893X3X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinProLabMMS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MMS.FinProLabMMS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		05AD9FA8296D3E3F00F437D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MMS.FinProLabMMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinProLabMMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinProLabMMS";
+			};
+			name = Debug;
+		};
+		05AD9FA9296D3E3F00F437D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MMS.FinProLabMMSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinProLabMMS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinProLabMMS";
+			};
+			name = Release;
+		};
+		05AD9FAB296D3E3F00F437D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MMS.FinProLabMMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinProLabMMS;
+			};
+			name = Debug;
+		};
+		05AD9FAC296D3E3F00F437D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MMS.FinProLabMMSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinProLabMMS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05AD9F72296D3E3E00F437D2 /* Build configuration list for PBXProject "FinProLabMMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD9FA2296D3E3F00F437D2 /* Debug */,
+				05AD9FA3296D3E3F00F437D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AD9FA4296D3E3F00F437D2 /* Build configuration list for PBXNativeTarget "FinProLabMMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD9FA5296D3E3F00F437D2 /* Debug */,
+				05AD9FA6296D3E3F00F437D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AD9FA7296D3E3F00F437D2 /* Build configuration list for PBXNativeTarget "FinProLabMMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD9FA8296D3E3F00F437D2 /* Debug */,
+				05AD9FA9296D3E3F00F437D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AD9FAA296D3E3F00F437D2 /* Build configuration list for PBXNativeTarget "FinProLabMMSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD9FAB296D3E3F00F437D2 /* Debug */,
+				05AD9FAC296D3E3F00F437D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05AD9F83296D3E3E00F437D2 /* FinProLabMMS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05AD9F84296D3E3E00F437D2 /* FinProLabMMS.xcdatamodel */,
+			);
+			currentVersion = 05AD9F84296D3E3E00F437D2 /* FinProLabMMS.xcdatamodel */;
+			path = FinProLabMMS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 05AD9F6F296D3E3E00F437D2 /* Project object */;
+}
